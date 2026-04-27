@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: hemiao206-boop/accio-website-project
+  branch: main
+  base_url: https://api.github.com
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "blog"
+    label: "Journal Articles"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Slug (URL Path)", name: "slug", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Author", name: "author", widget: "string", default: "Mimi" }
+      - { label: "Category", name: "category", widget: "string", default: "Journal" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
