@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ELEGANCE | Fashion & Lifestyle",
-  description: "Minimalist fashion magazine and boutique.",
+  title: "CORALLE STYLE | Curated Fashion & Lifestyle",
+  description: "Minimalist fashion magazine and boutique for the modern romantic.",
 };
 
 export default function RootLayout({

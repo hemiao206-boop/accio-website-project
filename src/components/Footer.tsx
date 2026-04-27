@@ -31,12 +31,15 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-accent/10 flex flex-col md:row items-center justify-between text-[10px] uppercase tracking-[0.2em] text-gray-400">
-        <p>&copy; 2026 Elegance Magazine & Boutique. All Rights Reserved.</p>
+        <p>&copy; 2026 Coralle Style. All Rights Reserved. </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#">Instagram</a>
           <a href="#">Pinterest</a>
-          <a href="#">Twitter</a>
+          <a href="#">TikTok</a>
         </div>
+      </div>
+      <div className="max-w-7xl mx-auto mt-8 text-[9px] text-gray-400 leading-relaxed text-center md:text-left">
+        <p>Affiliate Disclosure: Coralle Style is a curated lifestyle journal. Some links on this site are affiliate links, which means we may earn a small commission if you make a purchase, at no extra cost to you. We only recommend products we truly love.</p>
       </div>
     </footer>
   );

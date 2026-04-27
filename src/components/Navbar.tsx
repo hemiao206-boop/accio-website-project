@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-accent/20">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="text-2xl font-serif tracking-widest uppercase">
-          Elegance
+          Coralle Style
         </Link>
         <div className="hidden md:flex space-x-12 text-sm uppercase tracking-widest">
           <Link href="/" className="hover:text-accent transition-colors">Home</Link>

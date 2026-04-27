@@ -1,0 +1,24 @@
+npm ERR! code EPERM
+npm ERR! syscall open
+npm ERR! path C:\Users\Administrator\AppData\Local\npm-cache\_cacache\tmp\0256b643
+npm ERR! errno -4048
+npm ERR! Error: EPERM: operation not permitted, open 'C:\Users\Administrator\AppData\Local\npm-cache\_cacache\tmp\0256b643'
+npm ERR!  [Error: EPERM: operation not permitted, open 'C:\Users\Administrator\AppData\Local\npm-cache\_cacache\tmp\0256b643'] {
+npm ERR!   errno: -4048,
+npm ERR!   code: 'EPERM',
+npm ERR!   syscall: 'open',
+npm ERR!   path: 'C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_cacache\\tmp\\0256b643'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
+npm ERR! or that you lack permissions to access it.
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! Log files were not written due to an error writing to the directory: C:\Users\Administrator\AppData\Local\npm-cache\_logs
+npm ERR! You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+
+C:\Users\Administrator\.accio\accounts\7083651035\agents\MID-62651035U1776847-86B99D-8904-E9075F\project>

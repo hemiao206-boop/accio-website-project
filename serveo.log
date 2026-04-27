@@ -1,0 +1,5 @@
+Could not create directory 'C:\\Users\\Administrator/.ssh' (Permission denied).
+Failed to add the host to the list of known hosts (C:\\Users\\Administrator/.ssh/known_hosts).
+[32mForwarding HTTP traffic from https://8b4060a2cd0b392f-113-57-65-50.serveousercontent.com
+[0m[33mTip (1): Create an account to reserve names. Pro removes the warning page: https://console.serveo.net/settings?n=1&src=ssh_nudge&v=B
+[0mConnection to serveo.net closed by remote host.

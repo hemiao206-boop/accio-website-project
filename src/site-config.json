@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "videoUrl": "https://player.vimeo.com/external/494101887.sd.mp4?s=340176d6c382103f563630f5c1d6364a938c924f&profile_id=164&oauth2_token_id=57447761",
+    "title": "Coralle Style",
+    "subtitle": "Curated Romance | Spring 2026",
+    "ctaText": "Shop the Edit"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Silk Satin Midi Dress",
+      "price": "$299",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "Cashmere Wool Coat",
+      "price": "$550",
+      "image": "https://images.unsplash.com/photo-1539109132381-31a1ecad720f?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Linen Tailored Trousers",
+      "price": "$180",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "Classic Leather Mules",
+      "price": "$220",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "Organza Blouse",
+      "price": "$150",
+      "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Gold Hoops",
+      "price": "$85",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop"
+    }
+  ]
+}
