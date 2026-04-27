@@ -4,25 +4,32 @@ import Link from 'next/link';
 
 const BLOG_POSTS = [
   {
-    slug: 'the-art-of-minimalism',
-    title: 'The Art of Minimalism in Spring 2026',
-    excerpt: 'Discover how to curate a wardrobe that speaks volumes with just a few key pieces.',
-    date: 'April 15, 2026',
+    slug: 'the-future-of-eco-luxury-2026',
+    title: '2026 Trend Report: Why Minimalism is Turning Floral',
+    excerpt: 'Exploring the resurgence of "Quiet Florals" and organic expressions in minimalist fashion.',
+    date: 'April 27, 2026',
+    image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    slug: 'how-to-style-minimalist-florals',
+    title: 'From Day to Dusk: Styling the Perfect Silk Slip',
+    excerpt: 'A single silk slip dress is perhaps the most hardworking piece in a romantic minimalist’s wardrobe.',
+    date: 'April 27, 2026',
+    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    slug: 'sustainable-romanticism-reformation-style',
+    title: 'Sustainable Romanticism: The Reformation Aesthetic Decoded',
+    excerpt: 'Discover why the philosophy of Reformation aligns perfectly with the modern muse.',
+    date: 'April 27, 2026',
+    image: 'https://images.unsplash.com/photo-1549064492-368ca3e1c66f?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    slug: 'the-coralle-style-philosophy',
+    title: 'The Coralle Style Philosophy: Why We Choose Romantic Minimalism',
+    excerpt: 'At Coralle Style, we believe that elegance is not about being noticed, but about being remembered.',
+    date: 'April 27, 2026',
     image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800&auto=format&fit=crop',
-  },
-  {
-    slug: 'sustainable-luxury',
-    title: 'Sustainable Luxury: A New Standard',
-    excerpt: 'Why the future of high fashion lies in ethical production and conscious consumption.',
-    date: 'April 10, 2026',
-    image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=800&auto=format&fit=crop',
-  },
-  {
-    slug: 'color-palette-trends',
-    title: 'Trends: Romantic Neutral Palettes',
-    excerpt: 'Exploring the soft beiges and muted pinks dominating the runways this season.',
-    date: 'April 05, 2026',
-    image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop',
   },
 ];
 
