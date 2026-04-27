@@ -4,6 +4,13 @@ import Link from 'next/link';
 
 const BLOG_POSTS = [
   {
+    slug: 'reformation-romantic-tech-alchemy',
+    title: 'Reformation: The Mad Alchemy of Romance and Technology',
+    excerpt: 'How Reformation redefined modern fashion by blending vintage soul with high-tech brains.',
+    date: 'April 27, 2026',
+    image: 'https://sc02.alicdn.com/kf/Aef1b20b5ef554a4492757870d11e67a4m.png',
+  },
+  {
     slug: 'the-future-of-eco-luxury-2026',
     title: '2026 Trend Report: Why Minimalism is Turning Floral',
     excerpt: 'Exploring the resurgence of "Quiet Florals" and organic expressions in minimalist fashion.',
