@@ -1,10 +1,12 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { getAllPosts } from '@/lib/blog';
+import { getDatabase } from '@/lib/notion';
 
-export default function BlogPage() {
-  const posts = getAllPosts();
+export const revalidate = 60; // Revalidate every minute
+
+export default async function BlogPage() {
+  const posts = await getDatabase();
 
   return (
     <main className="min-h-screen bg-background pt-32">
@@ -39,7 +41,7 @@ export default function BlogPage() {
           </div>
         ) : (
           <div className="text-center py-20 text-gray-400">
-            <p>No articles found. Start publishing through the CMS!</p>
+            <p>Waiting for your first post in Notion...</p>
           </div>
         )}
       </section>
