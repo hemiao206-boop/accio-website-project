@@ -13,7 +13,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 export async function getDatabase() {
   const databaseId = process.env.NOTION_DATABASE_ID;
-  if (!databaseId) {
+  
     console.warn('NOTION_DATABASE_ID is not defined in environment variables.');
     return [];
   }
