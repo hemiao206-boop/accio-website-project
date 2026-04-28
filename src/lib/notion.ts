@@ -1,5 +1,4 @@
 import { Client } from '@notionhq/client';
-import { NotionToMarkdown } from 'notiimport { Client } from '@notionhq/client';
 import { NotionToMarkdown } from 'notion-to-md';
 
 const notion = new Client({
