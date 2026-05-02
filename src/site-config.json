@@ -1,6 +1,6 @@
 {
   "hero": {
-    "videoUrl": "https://videos.pexels.com/video-files/9822035/9822035-sd_506_960_25fps.mp4",
+    "videoUrl": "/hero-video.mp4",
     "title": "Coralle Style",
     "subtitle": "Curated Romance | Spring 2026",
     "ctaText": "Shop the Edit"
@@ -8,39 +8,51 @@
   "products": [
     {
       "id": 1,
-      "name": "Silk Satin Midi Dress",
-      "price": "$299",
-      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop"
+      "name": "The Mallow Silk Dress",
+      "brand": "Reformation",
+      "price": "$298",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.thereformation.com/products/mallow-silk-dress"
     },
     {
       "id": 2,
-      "name": "Cashmere Wool Coat",
-      "price": "$550",
-      "image": "https://images.unsplash.com/photo-1539109132381-31a1ecad720f?q=80&w=800&auto=format&fit=crop"
+      "name": "Classic Wool Coat",
+      "brand": "Toteme",
+      "price": "$950",
+      "image": "https://images.unsplash.com/photo-1539109132381-31a1ecad720f?q=80&w=800&auto=format&fit=crop",
+      "link": "https://toteme-studio.com/products/classic-wool-coat-black"
     },
     {
       "id": 3,
-      "name": "Linen Tailored Trousers",
-      "price": "$180",
-      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop"
+      "name": "Love 85 Patent Pumps",
+      "brand": "Jimmy Choo",
+      "price": "$750",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.jimmychoo.com/en/women/shoes/pumps"
     },
     {
       "id": 4,
-      "name": "Classic Leather Mules",
-      "price": "$220",
-      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop"
+      "name": "The Margaux 15 Bag",
+      "brand": "The Row",
+      "price": "$4,390",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.therow.com/collections/bags"
     },
     {
       "id": 5,
-      "name": "Organza Blouse",
-      "price": "$150",
-      "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=800&auto=format&fit=crop"
+      "name": "The Maddy Ribbed Top",
+      "brand": "Khaite",
+      "price": "$480",
+      "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=800&auto=format&fit=crop",
+      "link": "https://khaite.com/collections/tops"
     },
     {
       "id": 6,
-      "name": "Minimalist Gold Hoops",
-      "price": "$85",
-      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop"
+      "name": "Hangisi Jewel Buckle Pumps",
+      "brand": "Manolo Blahnik",
+      "price": "$1,125",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.manoloblahnik.com/collections/hangisi"
     }
   ]
 }

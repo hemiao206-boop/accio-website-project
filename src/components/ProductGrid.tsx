@@ -24,10 +24,16 @@ export default function ProductGrid() {
               />
             </div>
             <h3 className="text-lg font-serif mb-1">{product.name}</h3>
+            <p className="text-[10px] uppercase tracking-widest text-gray-400 mb-1">{(product as any).brand}</p>
             <p className="text-sm text-gray-500 mb-6 tracking-widest">{product.price}</p>
-            <button className="w-full py-4 md:py-3 bg-foreground text-background text-sm md:text-xs uppercase tracking-widest hover:bg-accent hover:text-foreground transition-colors active:scale-95 duration-200">
-              Buy Now
-            </button>
+            <a 
+              href={(product as any).link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full py-4 md:py-3 bg-foreground text-background text-sm md:text-xs uppercase tracking-widest hover:bg-accent hover:text-foreground transition-colors active:scale-95 duration-200 text-center"
+            >
+              Shop the Edit
+            </a>
           </div>
         ))}
       </div>
