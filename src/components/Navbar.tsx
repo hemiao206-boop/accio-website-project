@@ -10,12 +10,9 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-12 text-sm uppercase tracking-widest">
           <Link href="/" className="hover:text-accent transition-colors">Home</Link>
           <Link href="/blog" className="hover:text-accent transition-colors">Blog</Link>
-          <Link href="/collections" className="hover:text-accent transition-colors">Collections</Link>
           <Link href="/about" className="hover:text-accent transition-colors">About</Link>
+          <Link href="/contact" className="hover:text-accent transition-colors">Contact</Link>
         </div>
-        <button className="text-sm uppercase tracking-widest border-b border-foreground">
-          Contact
-        </button>
       </div>
     </nav>
   );

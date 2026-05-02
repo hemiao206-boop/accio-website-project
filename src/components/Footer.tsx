@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-16 px-6 border-t border-accent/20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-2">
-          <h2 className="text-2xl font-serif tracking-widest uppercase mb-6">Elegance</h2>
+          <h2 className="text-2xl font-serif tracking-widest uppercase mb-6">Coralle Style</h2>
           <p className="text-sm text-gray-500 max-w-sm leading-loose">
             Curated fashion for the modern woman who values timeless style and quality craftsmanship.
           </p>
@@ -13,7 +13,16 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-gray-500">
             <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
             <li><a href="/blog" className="hover:text-accent transition-colors">Blog</a></li>
-            <li><a href="/collections" className="hover:text-accent transition-colors">Collections</a></li>
+            <li><a href="/about" className="hover:text-accent transition-colors">About</a></li>
+            <li><a href="/contact" className="hover:text-accent transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-sm uppercase tracking-widest mb-6 font-bold">Legal</h3>
+          <ul className="space-y-4 text-sm text-gray-500">
+            <li><a href="/privacy-policy" className="hover:text-accent transition-colors">Privacy Policy</a></li>
+            <li><a href="/terms-of-service" className="hover:text-accent transition-colors">Terms of Service</a></li>
+            <li><a href="/affiliate-disclosure" className="hover:text-accent transition-colors">Affiliate Disclosure</a></li>
           </ul>
         </div>
         <div>
