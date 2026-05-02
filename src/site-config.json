@@ -16,43 +16,43 @@
     },
     {
       "id": 2,
-      "name": "Classic Wool Coat",
-      "brand": "Toteme",
-      "price": "$950",
-      "image": "https://images.unsplash.com/photo-1539109132381-31a1ecad720f?q=80&w=800&auto=format&fit=crop",
-      "link": "https://toteme-studio.com/products/classic-wool-coat-black"
+      "name": "Adèle Dress",
+      "brand": "Sézane",
+      "price": "$215",
+      "image": "https://images.unsplash.com/photo-1572804013307-a9a111d71f2b?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.sezane.com/us/essentials/dresses"
     },
     {
       "id": 3,
-      "name": "Love 85 Patent Pumps",
-      "brand": "Jimmy Choo",
-      "price": "$750",
-      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.jimmychoo.com/en/women/shoes/pumps"
+      "name": "Gabin Wrap Dress",
+      "brand": "Rouje",
+      "price": "$210",
+      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.rouje.com/collections/dresses"
     },
     {
       "id": 4,
-      "name": "The Margaux 15 Bag",
-      "brand": "The Row",
-      "price": "$4,390",
-      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.therow.com/collections/bags"
+      "name": "The Juliet Silk Dress",
+      "brand": "Réalisation Par",
+      "price": "$225",
+      "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?q=80&w=800&auto=format&fit=crop",
+      "link": "https://realisationpar.com/the-juliet-rouge-fleur/"
     },
     {
       "id": 5,
-      "name": "The Maddy Ribbed Top",
-      "brand": "Khaite",
-      "price": "$480",
-      "image": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=800&auto=format&fit=crop",
-      "link": "https://khaite.com/collections/tops"
+      "name": "Ashlynn Floral Dress",
+      "brand": "DÔEN",
+      "price": "$298",
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop",
+      "link": "https://www.shopdoen.com/collections/dresses"
     },
     {
       "id": 6,
-      "name": "Hangisi Jewel Buckle Pumps",
-      "brand": "Manolo Blahnik",
-      "price": "$1,125",
-      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.manoloblahnik.com/collections/hangisi"
+      "name": "Classic Easy Tote",
+      "brand": "Cuyana",
+      "price": "$248",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
+      "link": "https://cuyana.com/products/classic-easy-tote"
     }
   ]
 }
