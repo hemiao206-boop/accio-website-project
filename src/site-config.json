@@ -8,11 +8,11 @@
   "products": [
     {
       "id": 1,
-      "name": "Mel Knit Dress",
+      "name": "Mel Knit Dress (Red)",
       "brand": "Reformation",
       "price": "$128",
-      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1319562/BLACK/1319562.1.BLACK?_s=RAABAB0",
-      "link": "https://www.thereformation.com/products/mel-knit-dress/1319562.html"
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto:eco,dpr_auto/w_1200/PRD-SFCC/1319562/LIPSTICK/1319562.1.LIPSTICK",
+      "link": "https://www.thereformation.com/products/mel-knit-dress/1319562.html?dwvar_1319562_color=LPS"
     },
     {
       "id": 2,
@@ -24,11 +24,11 @@
     },
     {
       "id": 3,
-      "name": "High Slit Midi Dress",
-      "brand": "Bebe",
-      "price": "$139",
-      "image": "https://www.bebe.com/cdn/shop/files/BEBE2294_Square_Neck_High_Slit_Midi_Dress_Black_1_1800x1800.jpg?v=1766668494",
-      "link": "https://www.bebe.com/products/square-neck-high-slit-midi-dress-black"
+      "name": "MINETTE Dress",
+      "brand": "Rouje",
+      "price": "$315",
+      "image": "https://www.rouje.com/cdn/shop/files/MINETTE__2455_1200x1600_crop_center.jpg?v=1774570012",
+      "link": "https://www.rouje.com/en-us/products/minette-midi-dress-beige"
     },
     {
       "id": 4,
@@ -48,11 +48,11 @@
     },
     {
       "id": 6,
-      "name": "MINETTE Dress",
-      "brand": "Rouje",
-      "price": "$315",
-      "image": "https://www.rouje.com/cdn/shop/files/MINETTE__2455_1200x1600_crop_center.jpg?v=1774570012",
-      "link": "https://www.rouje.com/en-us/products/minette-midi-dress-beige"
+      "name": "High Slit Midi Dress (Magenta)",
+      "brand": "Bebe",
+      "price": "$139",
+      "image": "https://www.bebe.com/cdn/shop/files/BEBE2294_Magenta_1_a9f9bed5-232f-448b-9c0f-1a2af48bbcae_1800x1800.jpg?v=1774561171",
+      "link": "https://www.bebe.com/products/square-neck-high-slit-midi-dress-magenta"
     }
   ]
 }
