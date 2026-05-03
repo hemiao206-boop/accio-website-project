@@ -8,51 +8,51 @@
   "products": [
     {
       "id": 1,
-      "name": "The Mallow Silk Dress",
+      "name": "Mel Knit Dress",
       "brand": "Reformation",
-      "price": "$298",
-      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.thereformation.com/products/mallow-silk-dress"
+      "price": "$128",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1319562/BLACK/1319562.1.BLACK?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/mel-knit-dress/1319562.html"
     },
     {
       "id": 2,
-      "name": "Adèle Silk Dress",
-      "brand": "Sézane",
-      "price": "$215",
-      "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
-      "link": "https://www.sezane.com/us/essentials/dresses"
+      "name": "Smudge Chiffon Maxi Dress",
+      "brand": "Bebe",
+      "price": "$159",
+      "image": "https://www.bebe.com/cdn/shop/files/705080_Orange_Fuchsia_1_fb5796b1-100d-4993-9cee-81e74fca3b5d.jpg?v=1776461622&width=1080",
+      "link": "https://www.bebe.com/products/smudge-chiffon-racer-neck-maxi-dress-orange-fuchsia"
     },
     {
       "id": 3,
-      "name": "Gabin Wrap Dress",
-      "brand": "Rouje",
-      "price": "$210",
-      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.rouje.com/collections/dresses"
+      "name": "High Slit Midi Dress",
+      "brand": "Bebe",
+      "price": "$139",
+      "image": "https://www.bebe.com/cdn/shop/files/BEBE2294_Square_Neck_High_Slit_Midi_Dress_Black_1_1800x1800.jpg?v=1766668494",
+      "link": "https://www.bebe.com/products/square-neck-high-slit-midi-dress-black"
     },
     {
       "id": 4,
-      "name": "The Juliet Silk Dress",
-      "brand": "Réalisation Par",
-      "price": "$225",
-      "image": "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?q=80&w=800&auto=format&fit=crop",
-      "link": "https://realisationpar.com/the-juliet-rouge-fleur/"
+      "name": "Iris Gown",
+      "brand": "BCBGMAXAZRIA",
+      "price": "$398",
+      "image": "https://bcbg.com/cdn/shop/files/79115913_9795_1.jpg?v=1769018014",
+      "link": "https://bcbg.com/products/iris-gown-in-valerian-purple"
     },
     {
       "id": 5,
-      "name": "Ashlynn Floral Dress",
-      "brand": "DÔEN",
-      "price": "$298",
-      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop",
-      "link": "https://www.shopdoen.com/collections/dresses"
+      "name": "Patterned Satin Dress",
+      "brand": "Claudie Pierlot",
+      "price": "$380",
+      "image": "https://int.claudiepierlot.com/on/demandware.static/-/Sites-claudie-master-catalog/default/dw37ba5463/images/hi-res/Claudie_CFPRO03017-K009_F_1.jpg",
+      "link": "https://int.claudiepierlot.com/en/p/patterned-satin-dress/raphaella/3609140625455.html"
     },
     {
       "id": 6,
-      "name": "Classic Easy Tote",
-      "brand": "Cuyana",
-      "price": "$248",
-      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
-      "link": "https://cuyana.com/products/classic-easy-tote"
+      "name": "MINETTE Dress",
+      "brand": "Rouje",
+      "price": "$315",
+      "image": "https://www.rouje.com/cdn/shop/files/MINETTE__2455_1200x1600_crop_center.jpg?v=1774570012",
+      "link": "https://www.rouje.com/en-us/products/minette-midi-dress-beige"
     }
   ]
 }
