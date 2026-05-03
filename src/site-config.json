@@ -16,19 +16,19 @@
     },
     {
       "id": 2,
+      "name": "MINETTE Dress (Yellow Floral)",
+      "brand": "Rouje",
+      "price": "$315",
+      "image": "https://www.rouje.com/cdn/shop/files/MINETTE_1344_1200x1600_crop_center.jpg?v=1776094997",
+      "link": "https://www.rouje.com/en-us/products/minette-midi-dress-floral-print-yellow"
+    },
+    {
+      "id": 3,
       "name": "Smudge Chiffon Maxi Dress",
       "brand": "Bebe",
       "price": "$159",
       "image": "https://www.bebe.com/cdn/shop/files/705080_Orange_Fuchsia_1_fb5796b1-100d-4993-9cee-81e74fca3b5d.jpg?v=1776461622&width=1080",
       "link": "https://www.bebe.com/products/smudge-chiffon-racer-neck-maxi-dress-orange-fuchsia"
-    },
-    {
-      "id": 3,
-      "name": "MINETTE Dress",
-      "brand": "Rouje",
-      "price": "$315",
-      "image": "https://www.rouje.com/cdn/shop/files/MINETTE__2455_1200x1600_crop_center.jpg?v=1774570012",
-      "link": "https://www.rouje.com/en-us/products/minette-midi-dress-beige"
     },
     {
       "id": 4,
