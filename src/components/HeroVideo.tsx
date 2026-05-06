@@ -7,7 +7,7 @@ export default function HeroVideo() {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      <video poster={(hero as any).posterUrl}
+      <video 
         key={hero.videoUrl}
         autoPlay
         loop
