@@ -62,3 +62,70 @@
       "price": "$298",
       "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1320101/SOPRANO/1320101.1.SOPRANO?_s=RAABAB0",
       "link": "https://www.thereformation.com/products/birdie-linen-dress/1320101SOK.html?dwvar_1320101SOK_color=SOK"
+    },
+    {
+      "id": 8,
+      "name": "Briony Dress (Spring Fling)",
+      "brand": "Reformation",
+      "price": "$278",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1317086/SPRING_FLING/1317086.1.SPRING_FLING?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/briony-dress/1317086SRF.html?dwvar_1317086SRF_color=SRF"
+    },
+    {
+      "id": 9,
+      "name": "Eugenia Dress (Racecar)",
+      "brand": "Reformation",
+      "price": "$248",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1320069/RACECAR/1320069.1.RACECAR?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/eugenia-dress/1320069RCJ.html?dwvar_1320069RCJ_color=RCJ"
+    },
+    {
+      "id": 10,
+      "name": "Monette Linen Dress (Rose Serenade)",
+      "brand": "Reformation",
+      "price": "$248",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1314891/ROSE_SERENADE/1314891.1.ROSE_SERENADE?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/monette-linen-dress/1314891ZSR.html?dwvar_1314891ZSR_color=ZSR"
+    },
+    {
+      "id": 11,
+      "name": "RAOULITA Dress",
+      "brand": "Rouje",
+      "price": "$250",
+      "image": "https://www.rouje.com/cdn/shop/files/RAOULITA_MADRILENE_0635.jpg",
+      "link": "https://www.rouje.com/en-us/products/raoulita-wildflowers"
+    },
+    {
+      "id": 12,
+      "name": "Marysia Dress (Snapdragon)",
+      "brand": "Reformation",
+      "price": "$278",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1319803/SNAPDRAGON/1319803.1.SNAPDRAGON?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/marysia-dress/1319803SDR.html?dwvar_1319803SDR_color=SDR"
+    },
+    {
+      "id": 13,
+      "name": "Milica Dress (Zephyr Check)",
+      "brand": "Reformation",
+      "price": "$278",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1319852/ZEPHYR_CHECK/1319852.1.ZEPHYR_CHECK?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/milica-dress/1319852ZEP.html?&dwvar_1319852ZEP_color=ZEP"
+    },
+    {
+      "id": 14,
+      "name": "Floria Dress (Bandana)",
+      "brand": "Reformation",
+      "price": "$178",
+      "image": "https://media.thereformation.com/image/upload/f_auto,q_auto,dpr_1.0/w_800,c_scale//PRD-SFCC/1318323/BANDANA/1318323.1.BANDANA?_s=RAABAB0",
+      "link": "https://www.thereformation.com/products/floria-dress/1318323DDO.html?&dwvar_1318323DDO_color=HDW"
+    },
+    {
+      "id": 15,
+      "name": "Printed Satin Strapless Maxi Dress",
+      "brand": "Bebe",
+      "price": "$149",
+      "image": "https://www.bebe.com/cdn/shop/files/705161_Pink_Floral_1_cce82252-22ea-4224-aa41-3a2594831fdc_1800x1800.jpg?v=1776461623",
+      "link": "https://www.bebe.com/collections/dresses/products/printed-satin-strapless-maxi-dress-pink-floral"
+    }
+  ]
+}
