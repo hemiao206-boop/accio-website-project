@@ -1,7 +1,6 @@
 {
   "hero": {
-    "posterUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1600&auto=format&fit=crop",
-    "videoUrl": "https://videos.pexels.com/video-files/7300307/7300307-hd_1080_2048_25fps.mp4",
+        "videoUrl": "https://videos.pexels.com/video-files/7300307/7300307-hd_1080_2048_25fps.mp4",
     "title": "Coralle Style",
     "subtitle": "Curated Romance | Spring 2026",
     "ctaText": "Shop the Edit"
@@ -14,7 +13,7 @@
       "price": "$128",
       "image": "https://media.thereformation.com/image/upload/f_auto,q_auto:eco,dpr_auto/w_1200/PRD-SFCC/1319562/LIPSTICK/1319562.1.LIPSTICK",
       "link": "https://www.thereformation.com/products/mel-knit-dress/1319562.html?dwvar_1319562_color=LPS"
-    },
+    },"posterUrl"
     {
       "id": 2,
       "name": "MINETTE Dress (Yellow Floral)",
