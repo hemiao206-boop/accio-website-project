@@ -1,0 +1,84 @@
+
+> project@0.1.0 start
+> next start --port 3010
+
+▲ Next.js 16.2.4
+- Local:         http://localhost:3010
+- Network:       http://192.168.99.29:3010
+✓ Ready in 363ms
+⨯ upstream image response failed for https://images.unsplash.com/photo-1504917595217-d4dc5f63a16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1533061244037-975947a74796?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1517032223974-9b2f275e5052?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1554048612-b6a482bc67e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ Error [TimeoutError]: The operation was aborted due to timeout
+    at ignore-listed frames {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+⨯ upstream image response failed for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1554048612-b6a482bc67e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1504917595217-d4dc5f63a16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1533061244037-975947a74796?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1517032223974-9b2f275e5052?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response failed for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1504917595217-d4dc5f63a16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ upstream image response failed for https://images.unsplash.com/photo-1533061244037-975947a74796?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404
+⨯ Error [TimeoutError]: The operation was aborted due to timeout
+    at ignore-listed frames {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+⨯ upstream image response timed out for https://images.unsplash.com/photo-1517032223974-9b2f275e5052?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+⨯ upstream image response failed for https://images.unsplash.com/photo-1543084905-3ecf5eaa1ae4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 404

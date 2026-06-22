@@ -1,0 +1,8 @@
+Vercel CLI 54.9.0 (Node.js 20.12.0)
+Retrieving project…
+Deploying hemiao206-boops-projects/project
+Uploading [--------------------] (0.0B/125.2MB)
+Uploading [=====---------------] (31.3MB/125.2MB)
+Uploading [==========----------] (62.6MB/125.2MB)
+Uploading [===============-----] (93.9MB/125.2MB)
+Error: FetchError: request to https://api.vercel.com/v2/files?teamId=team_3nAzSBS5Kj8CnHTRLE8Coe2Y failed, reason: write ECONNRESET
