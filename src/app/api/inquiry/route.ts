@@ -1,16 +1,24 @@
 import { NextResponse } from 'next/server';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
     const data = await request.json();
     const { fullName, email, product, requirements } = data;
 
-    // Send email via Resend
-    const { data: resendData, error } = await resend.emails.send({
-      from: 'Ruichuang Inquiry <notifications@ruichuangmetal.com>',
-      to: ['admin@ruichuangmetal.com'],
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.263.net',
+      port: 465,
+      secure: true,
+      auth: {
+        user: 'phoebe@ruichuangmetal.com',
+        pass: process.env.SMTP_PASSWORD,
+      },
+    });
+
+    await transporter.sendMail({
+      from: '"Ruichuang Metal Inquiry" <phoebe@ruichuangmetal.com>',
+      to: 'admin@ruichuangmetal.com',
       replyTo: email,
       subject: `[New Inquiry] ${product || 'Metal Product'} - from ${fullName}`,
       html: `
@@ -59,17 +67,12 @@ export async function POST(request: Request) {
       `,
     });
 
-    if (error) {
-      console.error('Resend Error:', error);
-      return NextResponse.json({ success: false, error: error.message }, { status: 500 });
-    }
-
     return NextResponse.json({ 
       success: true, 
       message: 'Your inquiry has been sent successfully! We will contact you shortly.' 
     });
   } catch (err: any) {
-    console.error('API Error:', err);
+    console.error('SMTP Error:', err);
     return NextResponse.json({ success: false, error: 'Internal Server Error' }, { status: 500 });
   }
 }
