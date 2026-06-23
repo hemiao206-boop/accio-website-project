@@ -1,16 +1,24 @@
 import { NextResponse } from 'next/server';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
     const data = await request.json();
     const { fullName, email, product, requirements } = data;
 
-    // Send email via Resend
-    const { data: resendData, error } = await resend.emails.send({
-      from: 'Ruichuang Inquiry <notifications@ruichuangmetal.com>',
-      to: ['admin@ruichuangmetal.com'],
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.263.net',
+      port: 465,
+      secure: true,
+      auth: {
+        user: 'phoebe@ruichuangmetal.com',
+        pass: process.env.SMTP_PASSWORD,
+      },
+    });
+
+    await transporter.sendMail({
+      from: '"Ruichuang Metal Inquiry" <phoebe@ruichuangmetal.com>',
+      to: 'admin@ruichuangmetal.com',
       replyTo: email,
       subject: `[New Inquiry] ${product || 'Metal Product'} - from ${fullName}`,
       html: `
@@ -28,12 +36,12 @@ export async function POST(request: Request) {
               <table style="width: 100%; border-collapse: collapse;">
                 <tr>
                   <td style="padding: 8px 0; color: #6b7280; width: 120px;">Name:</td>
-                  <td style="padding: 8px 0; font-weight: bold; color: #111827;">${fullName}</td>
+                  <td style="padding: 8px 0; font-weight: bold; color: #111827;">\${fullName}</td>
                 </tr>
                 <tr>
                   <td style="padding: 8px 0; color: #6b7280;">Email:</td>
                   <td style="padding: 8px 0; font-weight: bold; color: #111827;">
-                    <a href="mailto:${email}" style="color: #b88e2f; text-decoration: underline;">${email}</a>
+                    <a href="mailto:\${email}" style="color: #b88e2f; text-decoration: underline;">\${email}</a>
                   </td>
                 </tr>
               </table>
@@ -43,9 +51,9 @@ export async function POST(request: Request) {
               <h2 style="font-size: 18px; font-weight: bold; color: #111827; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 16px;">
                 Inquiry Details
               </h2>
-              <p style="margin: 0;"><strong>Interested Product:</strong> <span style="color: #111827;">${product || 'General Inquiry'}</span></p>
+              <p style="margin: 0;"><strong>Interested Product:</strong> <span style="color: #111827;">\${product || 'General Inquiry'}</span></p>
               <div style="margin-top: 16px; padding: 16px; background-color: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; font-style: italic;">
-                "${requirements}"
+                "\${requirements}"
               </div>
             </div>
 
@@ -59,17 +67,12 @@ export async function POST(request: Request) {
       `,
     });
 
-    if (error) {
-      console.error('Resend Error:', error);
-      return NextResponse.json({ success: false, error: error.message }, { status: 500 });
-    }
-
     return NextResponse.json({ 
       success: true, 
       message: 'Your inquiry has been sent successfully! We will contact you shortly.' 
     });
   } catch (err: any) {
-    console.error('API Error:', err);
+    console.error('SMTP Error:', err);
     return NextResponse.json({ success: false, error: 'Internal Server Error' }, { status: 500 });
   }
 }
