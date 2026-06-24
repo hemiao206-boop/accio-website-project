@@ -102,8 +102,18 @@ export default function InquiryForm() {
                 name="requirements"
                 required
                 rows={4} 
-                placeholder="Hi, I am interested in your products. Please provide the latest quote for [Quantity] MT to [Destination Port]. Also, could you share the chemical composition (COA) and packaging details? Looking forward to your response."
-                className="w-full px-4 py-3 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-gold transition"
+                defaultValue="Hi, I am interested in your [Product] products. Please provide the latest quote for [Quantity] MT to [Destination Port]. Also, could you share the chemical composition (COA) and packaging details? Looking forward to your response."
+                className="w-full px-4 py-3 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-gold transition text-gray-700"
+                onClick={(e) => {
+                  const el = e.currentTarget;
+                  const text = el.value;
+                  const match = text.match(/\[([^\]]+)\]/);
+                  if (match) {
+                    const start = match.index!;
+                    const end = start + match[0].length;
+                    el.setSelectionRange(start, end);
+                  }
+                }}
               ></textarea>
               <button 
                 type="submit" 
