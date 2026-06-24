@@ -130,11 +130,11 @@ export default function InquiryForm() {
 
         {/* Global Sales Route Map - Subtle Trust Indicator */}
         <div className="mt-16 bg-white rounded-2xl border border-gray-100 p-8 shadow-sm flex flex-col md:flex-row items-center gap-8">
-          <div className="w-full md:w-1/2 bg-white rounded-xl p-2 flex items-center justify-center border border-gray-100 max-h-[300px]">
+          <div className="w-full md:w-1/2 aspect-[4/3] bg-white rounded-xl overflow-hidden p-2 flex items-center justify-center border border-gray-100">
             <img 
               src="/images/logistics-coverage.jpg?v=2" 
               alt="Hubei Ruichuang Metal Global Shipping & Logistics Routes" 
-              className="w-full h-auto object-contain"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-4">
