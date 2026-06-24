@@ -8,6 +8,7 @@ export default function InquiryForm() {
   const { company } = siteConfig;
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
+  const [requirements, setRequirements] = useState('Hi, I am interested in your [Product] products. Please provide the latest quote for [Quantity] MT to [Destination Port]. Also, could you share the chemical composition (COA) and packaging details? Looking forward to your response.');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -102,7 +103,8 @@ export default function InquiryForm() {
                 name="requirements"
                 required
                 rows={4} 
-                defaultValue="Hi, I am interested in your [Product] products. Please provide the latest quote for [Quantity] MT to [Destination Port]. Also, could you share the chemical composition (COA) and packaging details? Looking forward to your response."
+                value={requirements}
+                onChange={(e) => setRequirements(e.target.value)}
                 className="w-full px-4 py-3 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-gold transition text-gray-700"
                 onClick={(e) => {
                   const el = e.currentTarget;
