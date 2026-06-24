@@ -132,9 +132,9 @@ export default function InquiryForm() {
         <div className="mt-16 bg-white rounded-2xl border border-gray-100 p-8 shadow-sm flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-1/2 aspect-[4/3] bg-white rounded-xl overflow-hidden p-2 flex items-center justify-center border border-gray-100 max-h-[300px]">
             <img 
-              src="/images/factory/sale-market.png" 
+              src="/images/logistics-coverage.jpg" 
               alt="Hubei Ruichuang Metal Global Shipping & Logistics Routes" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-4">
