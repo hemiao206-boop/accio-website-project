@@ -134,7 +134,7 @@ export default function InquiryForm() {
             <img 
               src="/images/logistics-coverage.jpg" 
               alt="Hubei Ruichuang Metal Global Shipping & Logistics Routes" 
-              className="w-full h-full object-contain"
+              className="w-full h-auto object-contain"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-4">
